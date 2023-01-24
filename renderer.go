@@ -3,9 +3,11 @@ package survey
 import (
 	"bytes"
 	"fmt"
-	"github.com/AlecAivazis/survey/v2/core"
-	"github.com/AlecAivazis/survey/v2/terminal"
+
 	"golang.org/x/term"
+
+	"github.com/pierreadorni/survey/v2/core"
+	"github.com/pierreadorni/survey/v2/terminal"
 )
 
 type Renderer struct {
